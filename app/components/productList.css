@@ -1,0 +1,23 @@
+.vertical-scroll {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* İki ürün arasındaki boşluk */
+  }
+  
+  .product-pair {
+    width: calc(50% - 10px); /* 2'li ürün gruplarını yarı yarıya böler ve boşluk bırakır */
+    box-sizing: border-box;
+    padding: 10px; /* Ürün gruplarının iç boşluğu */
+  }
+  
+  .product {
+    border: 1px solid #ccc; /* Ürün kutusu sınırları */
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
